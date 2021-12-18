@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio - Klinton</title>
+
+	 <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body style="background-image: url('./img/bg.jpg');">
+
+	<nav class="bg-dark fix-top mb-3">
+		<center><h1 style="padding-top: 40px; padding-bottom: 40px; color: white;">My Portfolio</h1></center>
+	</nav>
+
+	<section class="container border border-light border-5">
+		<center>
+			<div>
+				<!-- Header -->
+				<img class="mb-5 rounded mt-5" src="./img/pic.JPG" alt="..." style="height: 20%; width: 20%;">
+
+				<h1 style="color: white;">Klint Anmher A. Paguio</h1>
+				<h4 style="color: white;"><i class="fas fa-star"></i> BS - Information Technology <i class="fas fa-star"></i></h4>
+				<hr style="color: white; height:5px; background-color:white">
+
+				<!-- Projects -->
+				<h2 style="color: white;"> - Sample developed<br>Systems and Applications - </h2><br>
+				<div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-5" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <img class="img-fluid border border-white border-3 btn btn-outline-light" src="./img/moviezone.PNG" alt="..." />
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <img class="img-fluid border border-white border-3 btn btn-outline-light" src="./img/AR.PNG" alt="..." />
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <img class="img-fluid border border-white border-3 btn btn-outline-light" src="./img/Task.PNG" alt="..." />
+                    </div>
+                </div>
+			</div>
+		</center>
+	</section>
+
+    <section class="page-section text-light mb-0" id="about">
+        <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+            <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+            <div class="row">
+                <div class="col-lg-4 ms-auto"><p class="lead" style="text-shadow: 2px 2px black;"><b>I'm Klint Anmher A. Paguio a BSIT student of CLSU. 21 y/o. I'm From San Jose City, Nueva Ecija Philippines.</b></p></div>
+                <div class="col-lg-4 me-auto"><p class="lead" style="text-shadow: 2px 2px black;"><b>I have developed some basic systems in the past years but my skills in programming are not that good. Since i was a child I enjoy watching Hacking Movies, Programming Movies, and any movies about computers and maybe thats one of the reason I pick this track. In the future I want to build my own IT company.</b></p></div>
+            </div>
+        </div>
+    </section>
+
+	<!-- Footer -->
+    <footer class="footer text-center bg-secondary">
+        <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4" style="color: white;">Location</h4>
+                    <p class="lead mb-0" style="color: white;">
+                        Nueva Ecija, Philippines
+                        <br />
+                        San Jose City, Brgy. Porais, Zone 4
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4" style="color: white;">Around the Web</h4>
+                    <a class="btn btn-outline-dark btn-social mx-1" href="https://www.facebook.com/klintanmher.paguio"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-dark btn-social mx-1" href="https://www.instagram.com/klintanmher/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/AdmiralKlint"><i class="fab fa-github"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4" style="color: white;">Goal</h4>
+                    <p class="lead mb-0" style="color: white;">
+                        Is to build my own IT company.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-light bg-dark">
+        <div class="container"><small>Copyright &copy; ChamDevs 2021</small></div>
+    </div>
+
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0 bg-dark">
+                    <h2 class="portfolio-modal-title text-white text-uppercase mb-0">Movie Zone Project</h2>
+                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                               
+                                <img class="img-fluid rounded mb-5 border border-dark border-5" src="./img/moviezone.PNG" alt="..." />
+                                <p class="mb-4">Move Zone Project is a Group Webpage developed by me and my groupmates. The webpage is basically a Movie Ticket Store where the admin can do CRUDE while the users can request to buy a movie ticket. All transactions are recorded in the database. Also, we included an email sending function for notification.</p>
+                                <a href="https://moviezoneproject.000webhostapp.com/"><i class="fas fa-arrow-right fa-fw"></i><b>Website : Movie Zone Project</b></a><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0 bg-dark">
+                    <h2 class="portfolio-modal-title text-white text-uppercase mb-0">CLSU Virtual touring App</h2>
+                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <img class="img-fluid rounded mb-5 border border-dark border-5" src="./img/AR.PNG" alt="..." />
+                                <p class="mb-4">CLSU Virtual Touring Application is a simple AR project developed by me and my partner. The application is used to view information of the places in the CLSU just by pointing your phones’ camera to the POI (Point of Interest) and the 3D objects can be interacted by slowly swiping the 3D objects where the camera can capture the interaction.</p>
+                                <a href="https://play.google.com/store/apps/details?id=com.PatcherApplication.test"><i class="fas fa-arrow-right fa-fw"></i><b>Play Store : CLSU Virtual Touring</b></a><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0 bg-dark">
+                    <h2 class="portfolio-modal-title text-white text-uppercase mb-0">Task CRUDE</h2>
+                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <img class="img-fluid rounded mb-5 border border-dark border-5" src="./img/Task.PNG" alt="..." />
+                                <p class="mb-4">Task Crude. Simple Crude developed in Laravel for “routes” and “views”.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
