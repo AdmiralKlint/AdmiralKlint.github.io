@@ -83,14 +83,3 @@ i.social-icon {
     transform: rotate(360deg);
   }
 }
-#job_desc {
-  animation: job_desc_animate 1s linear;
-}
-@keyframes job_desc_animate {
-  0% {
-    transform: translateX(-500px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
