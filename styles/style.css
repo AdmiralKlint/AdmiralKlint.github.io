@@ -117,115 +117,118 @@ i.social-icon {
   border: 2px solid white;
   margin: 10px;
 }
-.progress-bar.pl-php::before{
+.progress-bar.pl-php::before {
   content: attr(data-label);
   display: flex;
   align-items: center;
   position: absolute;
   width: 80%;
-  left: .5em;
-  top: .5em;
-  bottom: .5em;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
   background-color: white;
   border-radius: 1em;
-  padding: .5em;
+  padding: 0.5em;
   font-family: "Progress";
 }
-.progress-bar.pl-html::before{
+.progress-bar.pl-html::before {
   content: attr(data-label);
   display: flex;
   align-items: center;
   position: absolute;
   width: 70%;
-  left: .5em;
-  top: .5em;
-  bottom: .5em;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
   background-color: white;
   border-radius: 1em;
-  padding: .5em;
+  padding: 0.5em;
   font-family: "Progress";
 }
-.progress-bar.pl-css::before{
+.progress-bar.pl-css::before {
   content: attr(data-label);
   display: flex;
   align-items: center;
   position: absolute;
   width: 60%;
-  left: .5em;
-  top: .5em;
-  bottom: .5em;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
   background-color: white;
   border-radius: 1em;
-  padding: .5em;
+  padding: 0.5em;
   font-family: "Progress";
 }
-.progress-bar.pl-js::before{
+.progress-bar.pl-js::before {
   content: attr(data-label);
   display: flex;
   align-items: center;
   position: absolute;
   width: 60%;
-  left: .5em;
-  top: .5em;
-  bottom: .5em;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
   background-color: white;
   border-radius: 1em;
-  padding: .5em;
+  padding: 0.5em;
   font-family: "Progress";
 }
-.progress-bar.pl-c::before{
+.progress-bar.pl-c::before {
   content: attr(data-label);
   display: flex;
   align-items: center;
   position: absolute;
   width: 60%;
-  left: .5em;
-  top: .5em;
-  bottom: .5em;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
   background-color: white;
   border-radius: 1em;
-  padding: .5em;
+  padding: 0.5em;
   font-family: "Progress";
 }
-.progress-bar.pl-java::before{
+.progress-bar.pl-java::before {
   content: attr(data-label);
   display: flex;
   align-items: center;
   position: absolute;
   width: 50%;
-  left: .5em;
-  top: .5em;
-  bottom: .5em;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
   background-color: white;
   border-radius: 1em;
-  padding: .5em;
+  padding: 0.5em;
   font-family: "Progress";
 }
-.progress-bar.pl-python::before{
+.progress-bar.pl-python::before {
   content: attr(data-label);
   display: flex;
   align-items: center;
   position: absolute;
   width: 40%;
-  left: .5em;
-  top: .5em;
-  bottom: .5em;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
   background-color: white;
   border-radius: 1em;
-  padding: .5em;
+  padding: 0.5em;
   font-family: "Progress";
 }
-.progress-bar.pl-csharp::before{
+.progress-bar.pl-csharp::before {
   content: attr(data-label);
   display: flex;
   align-items: center;
   position: absolute;
   width: 20%;
-  left: .5em;
-  top: .5em;
-  bottom: .5em;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
   background-color: white;
   border-radius: 1em;
-  padding: .5em;
+  padding: 0.5em;
+  font-family: "Progress";
+}
+.console-web {
   font-family: "Progress";
 }
